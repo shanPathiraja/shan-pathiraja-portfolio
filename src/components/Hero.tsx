@@ -91,16 +91,17 @@ export default function Hero() {
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Hi, I&apos;m{' '}
-          <span className="gradient-text">Your Name</span>
+          <span className="gradient-text">Prasadh Pathiraja</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-white/60 mb-4 font-light">
-          Full-Stack Software Engineer
+          Full Stack JavaScript / TypeScript Engineer
         </p>
 
         <p className="text-white/50 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          I build beautiful, fast, and scalable web applications. Passionate about clean code,
-          great UX, and turning ideas into reality.
+          4+ years building production applications end-to-end — from custom UI components and
+          frontend architecture to backend APIs and data layers. Biased toward code the team
+          actually understands and can maintain long-term.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -12,40 +12,40 @@ function GithubIcon({ size = 18 }: { size?: number }) {
 
 const projects = [
   {
-    title: 'Project One',
+    title: 'Bevisioneers',
     description:
-      'A full-stack web application that does something amazing. Built with modern technologies and focused on great user experience.',
-    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Tailwind'],
+      'AI Young Entrepreneurs Coaching Platform serving 1,000+ active users. Built purpose-built custom UI components, a NestJS + TypeORM backend API, and a full RAG pipeline using embeddings, semantic search, OCR, and PDF extraction — architected from first principles.',
+    tags: ['Next.js', 'NestJS', 'TypeScript', 'REST API', 'Python FastAPI', 'RAG'],
     color: 'from-violet-500/20 to-pink-500/20',
     accent: '#a78bfa',
     github: '#',
     live: '#',
   },
   {
-    title: 'Project Two',
+    title: 'Gemlux',
     description:
-      'A mobile-first platform that solves a real problem. Focused on performance and accessibility.',
-    tags: ['React Native', 'Node.js', 'MongoDB', 'Redis'],
+      'Multi-Tenant SaaS Gemstone Platform. Built bespoke React components including data tables, role-based dashboards, and subscription management UI. Designed the Node.js backend with Stripe integration and plan-based access control.',
+    tags: ['React', 'Node.js', 'TypeScript', 'Stripe', 'Multi-Tenant SaaS'],
     color: 'from-pink-500/20 to-cyan-500/20',
     accent: '#f472b6',
     github: '#',
     live: '#',
   },
   {
-    title: 'Project Three',
+    title: 'CPOTOM3 — Brandex M3 ERP',
     description:
-      'An open-source developer tool used by hundreds of developers. Improved build times by 60%.',
-    tags: ['Rust', 'WebAssembly', 'CLI'],
+      'GraphQL microservice add-on extending the Brandex M3 ERP system. Includes OCR-based document extraction and data validation pipelines — built and maintained entirely in TypeScript with deliberate build-from-scratch decisions.',
+    tags: ['TypeScript', 'GraphQL', 'Microservices', 'OCR'],
     color: 'from-cyan-500/20 to-emerald-500/20',
     accent: '#22d3ee',
     github: '#',
     live: '#',
   },
   {
-    title: 'Project Four',
+    title: 'Hani',
     description:
-      'A real-time collaborative canvas powered by WebSockets. Supports thousands of concurrent users.',
-    tags: ['WebSockets', 'Canvas API', 'Express', 'Docker'],
+      'AI Travel Discovery App with a custom embeddings-based search engine built from first principles — enabling personalised, geolocation-aware place discovery without relying on an off-the-shelf vector search library.',
+    tags: ['NestJS', 'TypeScript', 'Embeddings', 'Geolocation', 'REST API'],
     color: 'from-emerald-500/20 to-violet-500/20',
     accent: '#34d399',
     github: '#',

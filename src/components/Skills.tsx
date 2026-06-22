@@ -2,24 +2,24 @@
 
 const skillGroups = [
   {
-    category: 'Frontend',
+    category: 'Frontend & UI',
     color: 'text-violet-400',
-    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'GraphQL'],
+    skills: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Redux Toolkit', 'HTML5 / CSS3'],
   },
   {
-    category: 'Backend',
+    category: 'Backend & Data',
     color: 'text-pink-400',
-    skills: ['Node.js', 'Express', 'NestJS', 'PostgreSQL', 'MongoDB', 'Redis'],
+    skills: ['Node.js', 'Express.js', 'NestJS', 'REST APIs', 'GraphQL', 'WebSocket', 'Supabase', 'PostgreSQL', 'MongoDB', 'Redis', 'Firebase Firestore'],
   },
   {
-    category: 'DevOps & Tools',
+    category: 'Cloud & DevOps',
     color: 'text-cyan-400',
-    skills: ['Docker', 'AWS', 'GitHub Actions', 'Vercel', 'Linux', 'Nginx'],
+    skills: ['AWS (Lambda, EC2, S3)', 'Google Cloud Platform', 'Firebase', 'Docker', 'CI/CD Pipelines', 'Git', 'GitHub / GitLab'],
   },
   {
-    category: 'Other',
+    category: 'AI & Architecture',
     color: 'text-emerald-400',
-    skills: ['Git', 'Figma', 'REST APIs', 'WebSockets', 'Agile / Scrum', 'Jest'],
+    skills: ['GitHub Copilot', 'Claude', 'OpenAI GPT-4', 'Prompt Engineering', 'Microservices', 'Clean Architecture', 'Event-Driven Design', 'Multi-Tenant SaaS'],
   },
 ];
 

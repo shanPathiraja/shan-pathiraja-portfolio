@@ -32,9 +32,9 @@ export default function Contact() {
   };
 
   const socials = [
-    { icon: Mail, label: 'Email', href: 'mailto:your@email.com', text: 'your@email.com' },
-    { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/yourusername', text: 'github.com/yourusername' },
-    { icon: LinkedinIcon, label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername', text: 'linkedin.com/in/yourusername' },
+    { icon: Mail, label: 'Email', href: 'mailto:prasadh.pathiraja@gmail.com', text: 'prasadh.pathiraja@gmail.com' },
+    { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/prasadhpathiraja', text: 'github.com/prasadhpathiraja' },
+    { icon: LinkedinIcon, label: 'LinkedIn', href: 'https://linkedin.com/in/prasadhpathiraja', text: 'linkedin.com/in/prasadhpathiraja' },
   ];
 
   return (
@@ -116,7 +116,7 @@ export default function Contact() {
       </div>
 
       <div className="mt-20 pt-8 border-t border-white/5 text-center text-white/30 text-sm">
-        © {new Date().getFullYear()} Your Name. Built with Next.js &amp; Tailwind CSS.
+        © {new Date().getFullYear()} Prasadh Pathiraja. Built with Next.js &amp; Tailwind CSS.
       </div>
     </section>
   );
