@@ -9,7 +9,8 @@
       "Bash(brew list *)",
       "mcp__Claude_Preview__preview_start",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(kill 69976)"
     ]
   }
 }
