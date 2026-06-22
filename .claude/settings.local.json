@@ -6,7 +6,10 @@
       "Bash(command -v nvm)",
       "Bash(nvm list *)",
       "Read(//Users/buddhikapathiraja/.nvm/versions/node/**)",
-      "Bash(brew list *)"
+      "Bash(brew list *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
