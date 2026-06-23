@@ -36,8 +36,8 @@ export default function Contact() {
 
   const socials = [
     { icon: Mail, label: 'Email', href: 'mailto:prasadh.pathiraja@gmail.com', text: 'prasadh.pathiraja@gmail.com' },
-    { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/prasadhpathiraja', text: 'github.com/prasadhpathiraja' },
-    { icon: LinkedinIcon, label: 'LinkedIn', href: 'https://linkedin.com/in/prasadhpathiraja', text: 'linkedin.com/in/prasadhpathiraja' },
+    { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/shanPathiraja', text: 'github.com/shanPathiraja' },
+    { icon: LinkedinIcon, label: 'LinkedIn', href: 'https://www.linkedin.com/in/prasadh-pathiraja-a64b7aba/', text: 'linkedin.com/in/prasadh-pathiraja' },
   ];
 
   return (
