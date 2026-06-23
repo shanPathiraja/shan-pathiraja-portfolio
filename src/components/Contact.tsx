@@ -26,9 +26,12 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('sending');
-    // Simulate sending — replace with your preferred email service (e.g. Resend, Formspree)
-    await new Promise((r) => setTimeout(r, 1200));
-    setStatus('sent');
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(form),
+    });
+    setStatus(res.ok ? 'sent' : 'idle');
   };
 
   const socials = [
