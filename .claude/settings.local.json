@@ -10,7 +10,11 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(kill 69976)"
+      "Bash(kill *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git commit *)"
     ]
   }
 }
